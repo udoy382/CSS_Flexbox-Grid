@@ -1,0 +1,32 @@
+.container{
+    /* height: 0em;
+    display: grid; */
+    /* grid-template-columns: repeat(5, 1fr); */
+    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));    grid-template-rows: repeat(2, 1fr); */
+
+    /* ----------------------------------------- */
+
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 90px);
+    grid-template-rows: repeat(2, 90px);
+    grid-gap: 3px;
+
+    /* justify-content move or space full container box not only single items */
+
+    /* justify-content: right; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+
+    /* or justify-items move single items not full box */
+
+    /* justify-items: end; */
+    /* justify-items: center; */
+}
+
+.seven{
+    justify-self: center;
+    /* justify-self: end; */
+}

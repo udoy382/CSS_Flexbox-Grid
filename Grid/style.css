@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: red;
+    height: 700px;
+    /* width: 900px; */
+
+    /* first we must do display grid in our container */
+    display: grid;
+
+    /* how much we want colums and rows in our container we add there */
+    /* grid-template-columns: 133px 133px 133px;
+    grid-template-rows: 133px 133px 133px; */
+
+    /* this is sort hand property [ 3 ] meens how much we want items in all the container space and [ 1fr ] meens all the space in our container, */
+    /* grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr); */
+
+    /* we add this way also */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 1fr 100px;
+
+    /* space or gap between the container items */
+    row-gap: 12px;
+    column-gap: 12px;
+
+    /* move the item start or center or end side */
+    /* justify-items: center; */
+}
+
+.item{
+    background-color: aqua;
+    /* height: 122px; */
+    /* width: 122px; */
+}
+
+.item1{
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+
+    /* sort hand property we span column */
+    grid-column: 1 / span 3;
+    background-color: black;
+    color: white;
+}
+
+.footer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: black;
+}

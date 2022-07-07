@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Target any one or more item or set margin auto so need anyware */
+
+.search{
+    /* margin-left: auto; */
+    background-color: rgb(173, 173, 50);
+    color: white;
+    height: 80px;
+    width: 23px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+/* move home left to right */
+
+.home{
+    /* margin-right: auto; */
+    background-color: rgb(39, 121, 39);
+    color: white;
+    height: 80px;
+    width: 23px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.logout{
+    background-color: rgb(32, 34, 148);
+    color: white;
+    height: 80px;
+    width: 23px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.profile{
+    background-color: rgb(139, 25, 105);
+    color: white;
+    height: 80px;
+    width: 23px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.container{
+    border: 2px solid black;
+    padding: 50px;
+
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: column; */
+
+    /* justify-content: center; */
+    /* justify-content: flex-end; */
+    /* justify-content: flex-start; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+}
+
+.container > div{
+    flex: 1;
+}
+
+.container > .search{
+    flex: 2;
+}
+
+.logout{
+    align-self: flex-start;
+}

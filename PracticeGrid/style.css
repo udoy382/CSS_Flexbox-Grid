@@ -1,0 +1,39 @@
+.container{
+    background-color: #ddd;
+
+    /* Start Grid from here */
+
+    display: grid;
+    
+}
+
+.item1{
+    background-color: red;
+    /* height: 20vh;
+    width: 15vw; */
+}
+.item2{
+    background-color: sandybrown;
+    /* height: 20vh;
+    width: 15vw; */
+}
+.item3{
+    background-color: seagreen;
+    /* height: 20vh;
+    width: 15vw; */
+}
+.item4{
+    background-color: slateblue;
+    /* height: 20vh;
+    width: 15vw; */
+}
+.item5{
+    background-color: teal;
+    /* height: 20vh;
+    width: 15vw; */
+}
+.item6{
+    background-color: yellow;
+    /* height: 20vh;
+    width: 15vw; */
+}

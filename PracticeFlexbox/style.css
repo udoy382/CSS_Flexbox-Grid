@@ -1,0 +1,66 @@
+/* Header CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #333;
+    color: white;
+    padding: 23px;
+}
+
+.logo{
+    margin-left: 22px;
+}
+
+h3{
+    font-size: 23px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    list-style-type: none;
+    color: white;
+}
+
+li{
+    display: inline;
+}
+
+li a{
+    color: white;
+    padding: 23px;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: gray;
+}
+
+.search-bar{
+    margin-right: 22px;
+    padding: 3px;
+}
+
+/* Main Content CSS */
+
+.main-contaner{
+    display: flex;
+}
+
+.leftbox{
+    background-color: aqua;
+    height: 100vh;
+    width: 25vw;
+    margin-right: 30px;
+}
+
+.rightbox{
+
+}

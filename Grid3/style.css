@@ -1,0 +1,33 @@
+.container{
+    display: grid;
+
+    /* set show much items show in the column */
+    /* grid-template-columns:100px auto 100px; */
+
+
+    /* use also this property for good used, this is flex we use this way row and property aslo */
+    /* grid-template-columns: 1fr 2fr; */
+    /* grid-template-rows: 2fr 3fr; */
+
+
+    /* sort hand propety first how many column then what is repeat */
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+
+
+    /* use this row and column property with sort hand  first row / second column */
+    /* grid-template: 2fr 3fr / 1fr 2fr; */
+
+
+    /* set how much items show in the row */
+    /* grid-template-rows: 300px 300px; */
+
+
+    /* gap the row and column */
+    grid-row-gap: 7px;
+    grid-column-gap: 3px;
+
+
+    /* if i want to gap the and column both the side so use this property */
+    grid-gap: 4px;
+}

@@ -1,0 +1,44 @@
+.container{
+    height: 100em;
+    display: grid;
+    /* grid-template-columns: 1fr 4fr; */
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 50px auto 50px;
+
+    /* new way to design layout */
+
+    grid-template-areas:
+    ". h h h h h h h h h h h"
+    "m m m c c c c c c c c c"
+    ". f f f f f f f f f f f "
+}
+
+.header{
+    /* if i want to grow header so use this two property */
+    /* grid-column-start: 1; */
+    /* grid-column-end: 3; */
+
+    /* use this two property with sort hand */
+    /* grid-column: 2 / 3; */
+
+    /* new way to design layout */
+    grid-area: h;
+}
+
+.footer{
+    /* grid-column: 1 / 3; */
+
+    /* new way to design layout */
+    grid-area: f;
+}
+
+.menu{
+    /* grid-row: 1 / 3; */
+
+    /* new way to design layout */
+    grid-area: m;
+}
+
+.content{
+    grid-area: c;
+}

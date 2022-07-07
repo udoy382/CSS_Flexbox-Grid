@@ -1,0 +1,27 @@
+.container{
+    display: grid;
+    grid-template-columns: 100fr 15fr;
+    margin-top: 5px;
+}
+
+.left-box{
+    border: 2px solid black;
+    /* background-color: red; */
+    height: 200vh;
+}
+
+.right-box{
+    border: 2px solid black;
+    /* background-color: blue; */
+    height: 100vh;
+}
+
+.right-box ul li a{
+    margin-left: 23px;
+    text-decoration: none;
+}
+
+.right-box ul li{
+    list-style-type: none;
+    padding: 5px;
+}

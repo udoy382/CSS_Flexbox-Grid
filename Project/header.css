@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+    height: 12vh;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img{
+    height: 12vh;
+}
+
+.middle-items ul li{
+    display: inline;
+    margin: 23px;
+}
+
+.middle-items ul{
+    margin-top: 23px;
+}
+
+.middle-items ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.middle-items ul li a:hover{
+    color: gray;
+}
+
+.right-items button{
+    margin-right: 23px;
+    margin-top: 23px;
+    color: black;
+}
+
+.right-items button:hover{
+    color: gray;
+}

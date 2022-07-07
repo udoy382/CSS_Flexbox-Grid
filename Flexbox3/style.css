@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #cacaca;
+    padding: 10px;
+    margin: 50px;
+    /* height: 1400px; */
+
+    /* Flexbox proparty */
+
+    display: flex;
+
+    /* ----flex-direction Proparty---- */
+    /* default value 'row' we can change it */
+    /* flex-direction: row; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+
+    /* ----justify-content Proparty---- */
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* justify-content: flex-start */
+    /* justify-content: flex-end; */
+
+    /* ----align-items Proparty---- */
+    align-items: center;
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+}
+
+.item{
+    background-color: #ff0037;
+    color: #fff;
+    font-size: 35px;
+    padding: 20px;
+    margin: 10px;
+
+    /* flex-grow: 1; */
+}
+
+/* ----This is for align-item and align-self---- */
+
+/* .item-3{
+    height: 150px;
+} */
+
+
+/* .item-4{
+    font-size: 70px;
+    align-self: flex-start;
+    align-self: flex-end;
+    align-self: stretch;
+    align-self:center;
+} */
+
+
+/* ----All items order value---- */
+
+.item-1{
+    order: 3;
+}
+
+.item-2{
+    order: 4;
+}
+
+.item-3{
+    order: 0;
+}
+
+.item-4{
+    order: 1;
+    /* flex-grow: 4; */
+}
+
+.item-5{
+    order: 2;
+    /* flex: 5; */
+    flex-basis: 75%;
+}
+
+
+/* How to handle lots of item in container work with container 2 */
+
+.container2{
+    background-color: #cacaca;
+    padding: 10px;
+    margin: 50px;
+    height: 600px;
+
+    display: flex;
+
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+
+    flex-wrap: wrap;
+}
+
+.this{
+    background-color: #ff0037;
+    color: #fff;
+    font-size: 35px;
+    padding: 20px;
+    margin: 10px;
+}
